@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensed: wght @ 300 & display = swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    
+
+margin:0;
+padding: 5px;
+min-height: 100vh;
+width: 1360px;;
+background-image: url("https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2018/12/fundo-cinza-escuro13-1024x640.jpeg?resize=696%2C435&ssl=1");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+.carrossel{
+    box-shadow: 2px 2px 4px #fff; /* Põe sombra na imagem ou area*/
+    overflow: hidden;
+    width: 1280px;
+    height: 100%;
+    
+
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Da o tempo de duração para a mudança das imagens */
+    transform: translateX(0);  /* Informa que quando chegar na ultima foto... voltar pro começo e reiniciar o precesso */
+    
+
+}
+
+img{
+    object-fit: cover;  /* Informa que todas as imagens devem aparecer no mesmo lugar */
+    height: 100%;
+    width: 1280px;
+}
+.card{
+
+    padding: 10px 20px 20px 10px;
+    box-shadow: 3px 3px 6px black;
+    background-color:rgba(255, 255, 255, 0.062);
+    float: left;
+    border-radius: 10px;
+    left:20%;
+    margin: 80px;
+
+}
+.container1{
+    color: #fff;
+     text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 10px;
+   height: 400px;
+    width: 500px;
+    padding: 5px;
+    box-shadow: 2px 2px 4px  #fff;
+    position: relative;
+    margin-top: 50%;
+    justify-content: center;
+    left: 32%;
+
+}
+main h2{
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    
+    
+    
+    
+
+
+}
+.input-field1{
+    border-radius: 10px;
+    font-size: 20px;
+    
+    text-decoration: none;
+
+}
+.input-field2{
+font-size: 20px;
+border-radius: 10px;
+}
+.input-field3 {
+
+    font-size: 20px;
+}
+
+
+
+
+    
+
+    
+    
+
+
+
+    
+
